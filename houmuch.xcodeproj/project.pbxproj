@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F926B8446F36003E89C8B4F /* Pods_houmuch_houmuchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89BFDB55EAE91FC05E23D43D /* Pods_houmuch_houmuchUITests.framework */; };
+		C9A3D0AC272259CBEFD72DE1 /* Pods_houmuchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02CD567438DC1F7FB56AB26D /* Pods_houmuchTests.framework */; };
 		FBEC9B442967AAB600AE5BBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEC9B432967AAB600AE5BBD /* AppDelegate.swift */; };
 		FBEC9B462967AAB600AE5BBD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEC9B452967AAB600AE5BBD /* SceneDelegate.swift */; };
 		FBEC9B482967AAB600AE5BBD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEC9B472967AAB600AE5BBD /* ViewController.swift */; };
@@ -16,6 +18,7 @@
 		FBEC9B5B2967AAB700AE5BBD /* houmuchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEC9B5A2967AAB700AE5BBD /* houmuchTests.swift */; };
 		FBEC9B652967AAB700AE5BBD /* houmuchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEC9B642967AAB700AE5BBD /* houmuchUITests.swift */; };
 		FBEC9B672967AAB700AE5BBD /* houmuchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEC9B662967AAB700AE5BBD /* houmuchUITestsLaunchTests.swift */; };
+		FC638D65FE97ADBB42270704 /* Pods_houmuch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4764DDEECCC28A0E4529A5A /* Pods_houmuch.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02CD567438DC1F7FB56AB26D /* Pods_houmuchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_houmuchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85561513830198CC894BA5D9 /* Pods-houmuchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-houmuchTests.debug.xcconfig"; path = "Target Support Files/Pods-houmuchTests/Pods-houmuchTests.debug.xcconfig"; sourceTree = "<group>"; };
+		86CA4DF24435DF1BBBD19DE9 /* Pods-houmuch-houmuchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-houmuch-houmuchUITests.release.xcconfig"; path = "Target Support Files/Pods-houmuch-houmuchUITests/Pods-houmuch-houmuchUITests.release.xcconfig"; sourceTree = "<group>"; };
+		89BFDB55EAE91FC05E23D43D /* Pods_houmuch_houmuchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_houmuch_houmuchUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4764DDEECCC28A0E4529A5A /* Pods_houmuch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_houmuch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8560B17A63532FB864FBAC5 /* Pods-houmuch-houmuchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-houmuch-houmuchUITests.debug.xcconfig"; path = "Target Support Files/Pods-houmuch-houmuchUITests/Pods-houmuch-houmuchUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA7794EC7E390516F98A3CB6 /* Pods-houmuchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-houmuchTests.release.xcconfig"; path = "Target Support Files/Pods-houmuchTests/Pods-houmuchTests.release.xcconfig"; sourceTree = "<group>"; };
+		F8F111A254658B10E255F9C0 /* Pods-houmuch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-houmuch.debug.xcconfig"; path = "Target Support Files/Pods-houmuch/Pods-houmuch.debug.xcconfig"; sourceTree = "<group>"; };
 		FBEC9B402967AAB600AE5BBD /* houmuch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = houmuch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBEC9B432967AAB600AE5BBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBEC9B452967AAB600AE5BBD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +60,7 @@
 		FBEC9B602967AAB700AE5BBD /* houmuchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = houmuchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBEC9B642967AAB700AE5BBD /* houmuchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = houmuchUITests.swift; sourceTree = "<group>"; };
 		FBEC9B662967AAB700AE5BBD /* houmuchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = houmuchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FF38517151D6D98BFB076D29 /* Pods-houmuch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-houmuch.release.xcconfig"; path = "Target Support Files/Pods-houmuch/Pods-houmuch.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC638D65FE97ADBB42270704 /* Pods_houmuch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9A3D0AC272259CBEFD72DE1 /* Pods_houmuchTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F926B8446F36003E89C8B4F /* Pods_houmuch_houmuchUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		886DC9DE29F7E32530A00C18 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8F111A254658B10E255F9C0 /* Pods-houmuch.debug.xcconfig */,
+				FF38517151D6D98BFB076D29 /* Pods-houmuch.release.xcconfig */,
+				A8560B17A63532FB864FBAC5 /* Pods-houmuch-houmuchUITests.debug.xcconfig */,
+				86CA4DF24435DF1BBBD19DE9 /* Pods-houmuch-houmuchUITests.release.xcconfig */,
+				85561513830198CC894BA5D9 /* Pods-houmuchTests.debug.xcconfig */,
+				AA7794EC7E390516F98A3CB6 /* Pods-houmuchTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A71BFEB890D700A5AD79907D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4764DDEECCC28A0E4529A5A /* Pods_houmuch.framework */,
+				89BFDB55EAE91FC05E23D43D /* Pods_houmuch_houmuchUITests.framework */,
+				02CD567438DC1F7FB56AB26D /* Pods_houmuchTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FBEC9B372967AAB600AE5BBD = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +122,8 @@
 				FBEC9B592967AAB700AE5BBD /* houmuchTests */,
 				FBEC9B632967AAB700AE5BBD /* houmuchUITests */,
 				FBEC9B412967AAB600AE5BBD /* Products */,
+				886DC9DE29F7E32530A00C18 /* Pods */,
+				A71BFEB890D700A5AD79907D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FBEC9B6A2967AAB700AE5BBD /* Build configuration list for PBXNativeTarget "houmuch" */;
 			buildPhases = (
+				D7C03C26C974BCC17E448490 /* [CP] Check Pods Manifest.lock */,
 				FBEC9B3C2967AAB600AE5BBD /* Sources */,
 				FBEC9B3D2967AAB600AE5BBD /* Frameworks */,
 				FBEC9B3E2967AAB600AE5BBD /* Resources */,
+				8F6FDBE5385D9097089FB947 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FBEC9B6D2967AAB700AE5BBD /* Build configuration list for PBXNativeTarget "houmuchTests" */;
 			buildPhases = (
+				921AC8F8A2BE8BC65E0E36C6 /* [CP] Check Pods Manifest.lock */,
 				FBEC9B522967AAB700AE5BBD /* Sources */,
 				FBEC9B532967AAB700AE5BBD /* Frameworks */,
 				FBEC9B542967AAB700AE5BBD /* Resources */,
@@ -169,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FBEC9B702967AAB700AE5BBD /* Build configuration list for PBXNativeTarget "houmuchUITests" */;
 			buildPhases = (
+				176D60EFA47009AAB73109C9 /* [CP] Check Pods Manifest.lock */,
 				FBEC9B5C2967AAB700AE5BBD /* Sources */,
 				FBEC9B5D2967AAB700AE5BBD /* Frameworks */,
 				FBEC9B5E2967AAB700AE5BBD /* Resources */,
+				87F3D0F4DB5FB1E2F010C864 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +298,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		176D60EFA47009AAB73109C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-houmuch-houmuchUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87F3D0F4DB5FB1E2F010C864 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-houmuch-houmuchUITests/Pods-houmuch-houmuchUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-houmuch-houmuchUITests/Pods-houmuch-houmuchUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-houmuch-houmuchUITests/Pods-houmuch-houmuchUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F6FDBE5385D9097089FB947 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-houmuch/Pods-houmuch-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-houmuch/Pods-houmuch-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-houmuch/Pods-houmuch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		921AC8F8A2BE8BC65E0E36C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-houmuchTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7C03C26C974BCC17E448490 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-houmuch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FBEC9B3C2967AAB600AE5BBD /* Sources */ = {
@@ -432,6 +581,7 @@
 		};
 		FBEC9B6B2967AAB700AE5BBD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8F111A254658B10E255F9C0 /* Pods-houmuch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +610,7 @@
 		};
 		FBEC9B6C2967AAB700AE5BBD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF38517151D6D98BFB076D29 /* Pods-houmuch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,6 +639,7 @@
 		};
 		FBEC9B6E2967AAB700AE5BBD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85561513830198CC894BA5D9 /* Pods-houmuchTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +660,7 @@
 		};
 		FBEC9B6F2967AAB700AE5BBD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA7794EC7E390516F98A3CB6 /* Pods-houmuchTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +681,7 @@
 		};
 		FBEC9B712967AAB700AE5BBD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8560B17A63532FB864FBAC5 /* Pods-houmuch-houmuchUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +700,7 @@
 		};
 		FBEC9B722967AAB700AE5BBD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86CA4DF24435DF1BBBD19DE9 /* Pods-houmuch-houmuchUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
