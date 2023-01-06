@@ -114,6 +114,116 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FBB228F62967B393004C546F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FBB229032967B3F5004C546F /* Colors */,
+				FBB229022967B3F1004C546F /* Fonts */,
+				FBB229012967B3ED004C546F /* Extensions */,
+				FBB229002967B3E8004C546F /* Storyboards */,
+				FBB228FF2967B3E3004C546F /* Constants */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FBB228F72967B39B004C546F /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				FBB228FE2967B3D9004C546F /* Protocols */,
+				FBB228FD2967B3CF004C546F /* Views */,
+				FBB228FC2967B3CA004C546F /* ViewControllers */,
+				FBB228FB2967B3C5004C546F /* Cells */,
+				FBB228FA2967B3C1004C546F /* Network */,
+				FBB228F92967B3BC004C546F /* Models */,
+				FBB228F82967B3B6004C546F /* Classes */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		FBB228F82967B3B6004C546F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FBB228F92967B3BC004C546F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FBB228FA2967B3C1004C546F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		FBB228FB2967B3C5004C546F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		FBB228FC2967B3CA004C546F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FBB228FD2967B3CF004C546F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FBB228FE2967B3D9004C546F /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		FBB228FF2967B3E3004C546F /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		FBB229002967B3E8004C546F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		FBB229012967B3ED004C546F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FBB229022967B3F1004C546F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		FBB229032967B3F5004C546F /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
 		FBEC9B372967AAB600AE5BBD = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +249,8 @@
 		FBEC9B422967AAB600AE5BBD /* houmuch */ = {
 			isa = PBXGroup;
 			children = (
+				FBB228F72967B39B004C546F /* Sources */,
+				FBB228F62967B393004C546F /* Resources */,
 				FBEC9B432967AAB600AE5BBD /* AppDelegate.swift */,
 				FBEC9B452967AAB600AE5BBD /* SceneDelegate.swift */,
 				FBEC9B472967AAB600AE5BBD /* ViewController.swift */,
